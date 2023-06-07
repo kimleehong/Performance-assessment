@@ -5,11 +5,15 @@ import java.util.Scanner;
 public class Exam2 {
     public static void main(String[] args) {
 
-        System.out.print("높이를 입력해주세요 : ");
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        for (int i = 0; i < 3; i++) {
+            System.out.print("높이를 입력해주세요 : ");
+            int n = sc.nextInt();
+            f1(n);
+        }
+
         // 높이를 입력해주세요 : 3                // 출력
-        f1(n);
+
         /*
 
          *
