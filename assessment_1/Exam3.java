@@ -41,8 +41,6 @@ class 로켓날개 extends 날개 {
 class 오리 {
     날개 a날개;
 
-    오리 a오리;
-
     void 날다() {
         if (a날개 == null) {
 
